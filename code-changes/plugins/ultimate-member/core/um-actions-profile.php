@@ -49,6 +49,9 @@
 		
 		do_action('um_user_before_updating_profile', $userinfo );
 		
+		//@TODO: Work with Ultimate Member to resolve issue. Perkster Solutions
+		//Added a check for array to make sure that the info in the $fields variable is actually an array
+		if( is_array( $fields ) ) {
 		// loop through fields
 		foreach( $fields as $key => $array ) {
 		
@@ -73,6 +76,7 @@
 				}
 				
 			}
+		}
 		}
 		
 		if ( isset( $args['submitted']['description'] ) ) {
