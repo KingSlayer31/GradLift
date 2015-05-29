@@ -32,7 +32,7 @@
 
     echo '<div class="gradline-container macho">';
         echo '<div class="gradline-main">';
-            echo '<h4>Your GradLine</h4>';
+            echo '<h4>Your GradLift Scholarship</h4>';
             // you can only have one boxit instance per page
             echo '<div id="boxit-holder"><section>';
                 echo '<header>';
@@ -133,7 +133,21 @@
 			*/
 
         echo '</div>';
-
+	
+	//high school goes here 
+		echo'<div class="gradlift-highschool">';
+			echo '<h5>529 College Savings Account</h5>';
+			echo'<p>please provide the following information:</p>';
+			// insert form shortcode here
+			echo do_shortcode("[si-contact-form form='1']");
+			//add php links
+			echo'<p>Don'/'t have a 529 plan? No problem.  "<a href=https://www.scholarshare.com>Click here</a>" 
+			for California or find your "<a href=http://www.collegesavings.org/viewState.aspx</a>"state here </p>';
+			
+			
+			echo '</div>'
+		// end of high school code
+	
         echo '<div class="gradline-sidebar">';
             include '_projects_sidebar.php';
         echo '</div>';
