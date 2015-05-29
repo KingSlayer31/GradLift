@@ -621,7 +621,11 @@ a.profile_primary:link,
 .macho .gradlift-loans,
 .macho .gradlift-terms,
 .macho .gradlift-fee,
-.macho .gradlift-transcripts {
+.macho .gradlift-transcripts,
+//high school
+//does .macho do anything? 
+.gradlift-highschool
+{
     background: #f2f2f2;
     border: 1px solid #eee;
     border-radius: 3px;
@@ -632,7 +636,11 @@ a.profile_primary:link,
 .macho .gradlift-loans h5,
 .macho .gradlift-terms h5,
 .macho .gradlift-fee h5,
-.macho .gradlift-transcripts h5 {
+.macho .gradlift-transcripts h5, 
+//high school
+.gradlift-highschool h5
+
+{
     color: #777;
     text-align:center;
     margin-top: 0;
@@ -643,7 +651,10 @@ a.profile_primary:link,
 .macho .gradlift-terms .boxit-container,
 .macho .gradlift-fee .boxit-container,
 .macho .gradlift-transcripts .boxit-container,
-.macho .alt-profilebutton-container { 
+.macho .alt-profilebutton-container,
+//high school
+.gradlift-highschool
+ { 
     margin: 0 auto;
     display: block;
     width: 80%;
@@ -659,6 +670,7 @@ a.profile_primary:link,
     margin-bottom: 0;
     margin-top: .5em;
 }
+
 
 #boxit-holder {
 	
@@ -689,7 +701,12 @@ a.profile_primary:link,
 .um-viewing .um-field-degreetype_35_48 .um-field-label,
 .um-viewing .um-field-degreetype_35_48 label,
 .um-viewing .um-field-major_36_49 .um-field-label,
-.um-viewing .um-field-major_36_49 label {
+.um-viewing .um-field-major_36_49 label, 
+//high school
+.um-viewing .um-field-high_school-1101 .um-field-label,
+.um-viewing .um-field-school_46 .um-field-label,
+.um-viewing  .um-field-current_school_dates_47.um-field-label
+{
 	display: none !important;
 }
 
@@ -716,7 +733,12 @@ a.profile_primary:link,
 .um-viewing .um-field-major_36_49 .um-field-value,
 .um-viewing .um-field-major_36_49.um-field,
 .um-viewing .um-field-school_30_47 .um-field-value,
-.um-viewing .um-field-school_30_47.um-field
+.um-viewing .um-field-school_30_47.um-field,
+//high school
+.um-viewing .um-field-school_46 .um-field-value,
+.um-viewing .um-field-school_46 .um-field,
+.um-viewing  .um-field-current_school_dates_47 .um-field-value,
+.um-viewing  .um-field-current_school_dates_47 .um-field
 {
 	padding: 0;
 	margin-bottom: 0;
@@ -731,7 +753,10 @@ a.profile_primary:link,
 
 .um-viewing .um-field-major .um-field-value,
 .um-viewing .um-field-major_36_49 .um-field-value,
-.um-viewing .um-field-major_36 .um-field-value {
+.um-viewing .um-field-major_36 .um-field-value ,
+//high school
+.um-viewing  .um-field-current_school_dates_47 .um-field-value
+{
 	padding-bottom: 12px;
 	border-bottom: 2px solid #999;
 	
@@ -740,7 +765,10 @@ a.profile_primary:link,
 
 .um-viewing .um-field-school .um-field-value,
 .um-viewing .um-field-school_30_47 .um-field-value,
-.um-viewing .um-field-school_30 .um-field-value {
+.um-viewing .um-field-school_30 .um-field-value,
+//high school
+.um-viewing .um-field-school_46 .um-field-value
+ {
 	font-size: 18px;
 	font-weight: 700;
 	padding-top: 12px;
