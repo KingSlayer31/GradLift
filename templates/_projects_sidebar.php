@@ -8,6 +8,7 @@
     $transcripts =  $user_stuff['are_transcripts_submitted'][0];
     $agreed_terms = $user_stuff['agreed_terms'][0];
     $paid_application = $user_stuff['paid_app_fee'][0];
+    $highschool= $user_stuff['are_529forms_submitted'][0];
     
     echo '<div class="">';
     echo '<h4>Complete your Gradline</h4>';
@@ -47,6 +48,11 @@
         echo '<p class="um-faicon-square-o">Pay Application Fee</p>';    
     }
 	*/
+    if ($highschool == 'true'){
+        echo '<p class="um-faicon-check-square-o completed">You submitted your 529 forms!</p>';
+    } else {
+        echo '<p class="um-faicon-square-o">Please submit 529 forms if in high school</p>';    
+    }
     echo '</div>';
 
 	
