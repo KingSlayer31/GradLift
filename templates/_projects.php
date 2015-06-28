@@ -103,7 +103,12 @@
                         echo '<p class="message">We are reviewing your Loan Documents and will contact you if we need further documentation.</p>';
                     }                    
                 }
-                echo '<p>Upload your current student loan statements here. Numerous files are ok if you have multiple loans.</p>';
+              	//mike edit below add link to the website and 
+                echo '<p><strong>Graduates:</strong> Upload your current student loan statements here. Numerous files are ok if you have multiple loans. We recommend uploading both your federal and private loan statements in PDF form.</p>';
+
+				echo '<p><strong>Current Students:</strong> Upload your current tuition statement and/or student loan statements here. Numerous files are ok if you have multiple loans. We recommend uploading both your <a target = '_blank' href="https://www.nslds.ed.gov/">federal and private loan statements in PDF form</a>.</p>';
+						
+						//end of mike edit
                 echo '<div class="boxit-container">';
                 echo '<div class="boxit-button">Click here to upload Loans</div>';
                 echo '</div>';
@@ -131,23 +136,23 @@
                 }
             echo '</div>';
 			*/
-
-        echo '</div>';
-	
-	//high school goes here 
-		echo'<div class="gradlift-highschool">';
+						//high school goes here 
+		echo'<div class="gradlift-loans">';
 			echo '<h5>529 College Savings Account</h5>';
 			echo'<p>please provide the following information:</p>';
 			// insert form shortcode here
 			echo do_shortcode("[si-contact-form form='1']");
 			//add php links
-			echo'<p>Don'/'t have a 529 plan? No problem.  "<a href=https://www.scholarshare.com>Click here</a>" 
-			for California or find your "<a href=http://www.collegesavings.org/viewState.aspx</a>"state here </p>';
+			echo'<p>Don\'t have a 529 plan? No problem. <a target = '_blank' href="https://www.scholarshare.com">Click here</a>
+			for California or find your <a target = '_blank' href="http://www.collegesavings.org/viewState.aspx">state here</a> </p>';
 			
 			
-			echo '</div>'
+			echo '</div>';
 		// end of high school code
-	
+        echo '</div>';
+
+
+		
         echo '<div class="gradline-sidebar">';
             include '_projects_sidebar.php';
         echo '</div>';
